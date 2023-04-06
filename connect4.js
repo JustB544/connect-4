@@ -151,10 +151,10 @@ button.addEventListener("click", (e) => {
     board.innerHTML = "";
     delete game;
   }
-  if (input1 !== "") {
+  if (input1.value !== "") {
     color1 = input1.value;
   }
-  if (input2 !== "") {
+  if (input2.value !== "") {
     color2 = input2.value;
   }
   game = new Game(6, 7);
